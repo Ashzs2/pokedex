@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  rgb(206, 241, 192);
+}
+
+#resultado {
+  margin-top: 10px;
+  border: 1px solid  rgb(70, 112, 54);
+  padding: 15px;
+  display: inline-block;
+  min-width: 250px;
+  font-family: pokemon, sans-serif;
+  font-size: 10px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pokeImg {
+  width: 250px;
+  height: 250px;
+
+}
+
+#pokeStatus {
+  text-align: left;
+  margin-top: 10px;
+  font-family: pokemon, sans-serif;
+}
+
+.container {
+    background-color: rgb(136, 196, 113);
+    border: 3px;
+    border-radius: 15px;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    font-family: pokemon, sans-serif;
+}
+
+@font-face {
+  font-family: 'pokemon';
+  src: url('fonts/Pokemon\ Classic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.typecontainer {
+    background-color: rgb(136, 196, 113);
+    border: 3px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 2px;
+    padding: 10px;
+}
+
+.habilidadescontainer {
+    background-color: rgb(136, 196, 113);
+    border: 3px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 2px;
+    padding: 10px;
+}
+
+.statuscontainer {
+    background-color: rgb(136, 196, 113);
+    border: 3px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 2px;
+    padding: 10px;
+}
+
+.nomecontainer {
+    background-color: rgb(136, 196, 113);
+    border: 3px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 2px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: rgb(136, 196, 113);
+    border: 3px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+}

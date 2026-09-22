@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokédex Simples</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">Pokédex</div>
+
+  <div>
+    <input type="text" id="pokemonInput" placeholder="Nome ou ID (ex: pikachu ou 25)">
+    <button onclick="buscarPokemon()">Buscar</button>
+  </div>
+
+  <div id="resultado">
+    <div class="nomecontainer"><h2 id="pokeNome">Digite um Pokémon</h2></div>
+    <img id="pokeImg" src="" alt="" style="display: none;">
+    <div class="typecontainer"><p id="pokeType"></p>
+        <p id="pokeMedidas"></p></p></div>
+    <div class="habilidadescontainer"><p id="pokeHabilidades"></p></div>
+    <div class="statuscontainer"><div id="pokeStatus"></div></div>
+  </div>
+    <footer></footer>
+  <script src="script.js"></script>
+  
+</body>
+</html>
